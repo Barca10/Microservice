@@ -17,6 +17,6 @@ jobs:
     steps:
     - shell:
        script: "echo Build Number: $BUILD_NUMBER"
-    - maven:
+       maven:
        goals: clean install
        pom-file: "demo/pom.xml"
